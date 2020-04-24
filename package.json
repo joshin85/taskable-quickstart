@@ -1,0 +1,26 @@
+{
+  "name": "taskable-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task.js",
+  "scripts": {
+    "local": "tsc app.ts; node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshin85/taskable-quickstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshin85/taskable-quickstart/issues"
+  },
+  "homepage": "https://github.com/joshin85/taskable-quickstart#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "puppeteer": "^3.0.1",
+    "taskable": "git+https://bitbucket.org/taskable/taskable-local-dev.git"
+  }
+}
